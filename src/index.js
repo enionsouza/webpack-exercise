@@ -1,3 +1,10 @@
 import './style.css';
+import WebpackLogo from './img/webpack-logo.svg'
 
-document.getElementsByTagName('h1')[0].classList.add('new-style');
+const h1 = document.getElementsByTagName('h1')[0]
+h1.classList.add('new-style');
+
+const logo = document.createElement('img');
+logo.src = WebpackLogo;
+
+h1.appendChild(logo);
