@@ -1,7 +1,19 @@
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fonts/proxima-nova-light.otf") format("opentype");
+}
+
+:root {
+  --font-family-sans-serif: "Proxima Nova", system-ui, -apple-system, "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 body {
   background-color: bisque;
 }
 
-.colorize {
+.new-style {
   color: red;
+  font-family: var(--font-family-sans-serif);
 }
